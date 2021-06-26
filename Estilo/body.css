@@ -13,6 +13,14 @@
 body {
   font-family: 'Lato', sans-serif;
   background-image: url('/Assets/Images/bg-madeira.jpg');
-  line-height: 5rem;
-  color: #333;
+  font-size: 13px;
+}
+
+:root {
+
+}
+
+.container {
+  width: 90%;
+  margin:auto;
 }
