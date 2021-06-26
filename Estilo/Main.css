@@ -1,10 +1,15 @@
-#banner {
-}
 
 #banner figure {
   display: flex;
 }
 
 #banner figure img {
-  width: 300px;
+  width: 12.5rem;
+}
+
+#banner figure figcaption {
+  margin-left: 1.25rem;
+  font-size: 20px;
+  color: #fff;
+  font-weight: bold;
 }
