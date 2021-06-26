@@ -1,0 +1,10 @@
+#banner {
+}
+
+#banner figure {
+  display: flex;
+}
+
+#banner figure img {
+  width: 300px;
+}

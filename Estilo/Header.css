@@ -8,13 +8,13 @@
 
 
 
-figure {
+#header figure {
   border-left: 19px solid #FFCA05;
   background-color: #BF1D23;
   padding: 0.625rem;
 }
 
-figure figcaption {
+#header figure figcaption {
   color: #fff;
   font-weight: bold;
   text-align: center;
