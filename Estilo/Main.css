@@ -1,15 +1,37 @@
 
 #banner figure {
   display: flex;
+  position: relative;
 }
 
 #banner figure img {
   width: 12.5rem;
+
+  position: absolute;
+  left: 240px;
+  animation: go-forward 1s ;
+}
+
+@keyframes go-forward {
+  from {
+    transform: translateX(0px);
+  }
+  to {
+    transform: translateX(100px);
+  }
 }
 
 #banner figure figcaption {
   margin-left: 1.25rem;
+  margin-top: 50px;
   font-size: 20px;
   color: #fff;
   font-weight: bold;
+
+  animation: go-forward 1s;
+  
+}
+
+#banner figure span.TextBanner1{
+  background-color: green;
 }
