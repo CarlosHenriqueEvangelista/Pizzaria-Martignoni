@@ -10,17 +10,9 @@
   position: absolute;
   bottom: -1.5rem;
   left: 15rem;
-  animation: go-forward 1s ;
 }
 
-@keyframes go-forward {
-  from {
-    transform: translateX(0px);
-  }
-  to {
-    transform: translateX(100px);
-  }
-}
+
 
 #banner figure figcaption {
   margin-left: 1.25rem;
