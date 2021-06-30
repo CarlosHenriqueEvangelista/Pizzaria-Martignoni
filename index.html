@@ -1,19 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pizzaria Martignoni</title>
+    <link rel="stylesheet" href="/Estilo/global.css" />
+    <link rel="stylesheet" href="/Estilo/header.css" />
   </head>
   <body>
-    <header>
-      <img
-        src="/Assets/Images/logo-130.png"
-        alt="Logo da Pizzaria Martignoni"
-      />
-      <img src="/Assets/Icons/menu.svg" alt="Abrir o menu" />
-      <img src="Assets/Images/disk-pizza.png" alt="Disk-pizza " />
+    <!-- ESTRUTURA DO HEADER -->
+    <header id="header">
+      <figure>
+        <img
+          class="logo"
+          src="/Assets/Images/logo-130.png"
+          alt="Logo da Pizzaria Martignoni"
+        />
+
+        <img class="menu" src="/Assets/Icons/menu.svg" alt="Abrir o menu" />
+        <figure class="diskpizza">
+          <img
+            src="Assets/Images/disk-pizza.png"
+            alt="Disk-pizza (45) 3223-5883"
+          />
+          <figcaption>TER A DOM - A PARTIR DAS 19H</figcaption>
+        </figure>
+      </figure>
     </header>
+    <!-- /ESTRUTURA DO HEADER -->
   </body>
 </html>

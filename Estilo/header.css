@@ -1,0 +1,29 @@
+#header figure {
+  display: flex;
+  justify-content: space-between;
+}
+
+#header figure .logo {
+  width: 6.25rem;
+  height: 6.25rem;
+  margin-left: 10px;
+}
+
+#header figure .diskpizza {
+  display: grid;
+  background-color: #bf1d23;
+  width: 170px;
+  justify-content: center;
+  margin-right: 10px;
+}
+
+#header figure figcaption {
+  color: #fff;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+#header figure .diskpizza img {
+  width: 130px;
+  margin: auto;
+}
