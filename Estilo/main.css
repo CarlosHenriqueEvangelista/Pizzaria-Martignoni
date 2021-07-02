@@ -1,0 +1,9 @@
+#banner figure {
+  display: flex;
+}
+
+#banner figure img {
+  width: 250px;
+  height: 250px;
+  margin-top: -30px;
+}

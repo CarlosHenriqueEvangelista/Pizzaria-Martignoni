@@ -20,7 +20,10 @@ a {
 body {
   font-family: 'Lato', sans-serif;
   line-height: 1.25rem;
-  background-color: blue;
+  background: url('/Assets/Images/bg-madeira.jpg');
 }
 
 /* VARIABLES */
+:root {
+  --default-red: #bf1d23;
+}

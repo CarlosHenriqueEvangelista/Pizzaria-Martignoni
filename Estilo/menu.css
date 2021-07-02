@@ -19,6 +19,7 @@ nav .close {
   visibility: hidden;
   opacity: 0;
 
+  bottom: 50px;
   left: 220px;
   transition: 0.2s;
 }
@@ -62,13 +63,13 @@ nav ul li a {
 nav ul li a::after {
   content: '';
   width: 0px;
-  height: 10px;
-  background-color: red;
+  height: 5px;
+  background-color: var(--default-red);
   margin-left: 70px;
 
   position: absolute;
   left: 0;
-  bottom: -1.5rem;
+  bottom: -1rem;
 
   transition: width 0.2s;
 }

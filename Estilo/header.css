@@ -1,6 +1,7 @@
 #header figure {
   display: flex;
   justify-content: space-between;
+  background-color: white;
 }
 
 #header figure .logo {
@@ -11,7 +12,7 @@
 
 #header figure .diskpizza {
   display: grid;
-  background-color: #bf1d23;
+  background-color: var(--default-red);
   width: 170px;
   justify-content: center;
 }
