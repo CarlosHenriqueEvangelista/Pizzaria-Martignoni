@@ -3,7 +3,29 @@
 }
 
 #banner figure img {
-  width: 250px;
-  height: 250px;
-  margin-top: -30px;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  left: 250px;
+  top: 100px;
+}
+
+#banner figure figcaption p {
+  font-size: 25px;
+  font-weight: bold;
+  color: #fff;
+}
+
+#banner figure .bannerText1 {
+  margin-top: 20px;
+  background: #577e39;
+  width: 130%;
+  padding: 10px;
+}
+
+#banner figure .bannerText2 {
+  margin-top: 15px;
+  background: #577e39;
+  width: 130%;
+  padding: 10px;
 }
