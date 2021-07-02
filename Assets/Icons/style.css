@@ -1,0 +1,54 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?eqo82n');
+  src:  url('fonts/icomoon.eot?eqo82n#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?eqo82n') format('truetype'),
+    url('fonts/icomoon.woff?eqo82n') format('woff'),
+    url('fonts/icomoon.svg?eqo82n#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-cross:before {
+  content: "\e903";
+}
+.icon-phone:before {
+  content: "\e900";
+}
+.icon-calendar:before {
+  content: "\e901";
+}
+.icon-date:before {
+  content: "\e901";
+}
+.icon-schedule:before {
+  content: "\e901";
+}
+.icon-time:before {
+  content: "\e901";
+}
+.icon-day:before {
+  content: "\e901";
+}
+.icon-local_pizza:before {
+  content: "\e902";
+}
+.icon-menu:before {
+  content: "\e904";
+}

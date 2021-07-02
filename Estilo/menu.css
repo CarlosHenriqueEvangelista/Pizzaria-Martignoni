@@ -8,14 +8,14 @@ nav ul.menu {
   display: none;
 }
 
-nav .open {
+nav .icon-menu {
   position: fixed;
   bottom: 50px;
   left: 15px;
   cursor: pointer;
 }
 
-nav .close {
+nav .icon-cross {
   visibility: hidden;
   opacity: 0;
 
@@ -24,7 +24,7 @@ nav .close {
   transition: 0.2s;
 }
 
-nav.show .close {
+nav.show .icon-cross {
   visibility: visible;
   opacity: 1;
 
