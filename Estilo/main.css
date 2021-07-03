@@ -1,3 +1,4 @@
+/* BANNER */
 #banner figure {
   display: flex;
 }
@@ -28,4 +29,45 @@
   background: #577e39;
   width: 130%;
   padding: 10px;
+}
+
+/* CHAMADAS */
+.cards {
+  background-color: #fff;
+  margin-top: 70px;
+  padding: 50px;
+}
+
+.card {
+  margin-top: 20px;
+}
+
+.card h1 {
+  margin-bottom: 30px;
+
+  padding-bottom: 20px;
+}
+
+.card h1.tittle1 {
+  border-bottom: 5px solid var(--default-red);
+}
+
+.card h1.tittle2 {
+  border-bottom: 5px solid var(--default-green);
+}
+
+.card .icon-local_pizza,
+.icon-calendar,
+.icon-phone {
+  margin-left: 140px;
+  margin-bottom: 80px;
+  font-size: 90px;
+}
+
+.card .icon-local_pizza {
+  color: var(--default-red);
+}
+
+.card .icon-calendar {
+  color: var(--default-green);
 }
