@@ -28,7 +28,7 @@ nav.show .icon-cross {
   visibility: visible;
   opacity: 1;
 
-  position: absolute;
+  position: fixed;
   bottom: 50px;
   left: 240px;
   cursor: pointer;
@@ -71,7 +71,7 @@ nav ul li a::after {
   left: 0;
   bottom: -1rem;
 
-  transition: width 0.2s;
+  transition: 0.2s;
 }
 
 nav ul li a:hover::after {

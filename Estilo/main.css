@@ -42,9 +42,24 @@
   margin-top: 20px;
 }
 
+.card::after {
+  content: '';
+  width: 349px;
+  height: 0px;
+  background-color: #bf1d2210;
+
+  position: absolute;
+  left: 50px;
+  top: 420px;
+  transition: 0.2s;
+}
+
+.card:hover::after {
+  height: 300px;
+}
+
 .card h1 {
   margin-bottom: 30px;
-
   padding-bottom: 20px;
 }
 
@@ -54,6 +69,10 @@
 
 .card h1.tittle2 {
   border-bottom: 5px solid var(--default-green);
+}
+
+.card h1.tittle3 {
+  border-bottom: 5px solid var(--default-yellow);
 }
 
 .card .icon-local_pizza,
@@ -66,8 +85,39 @@
 
 .card .icon-local_pizza {
   color: var(--default-red);
+  display: inline-block;
+  transition: 0.2s;
+}
+
+.card:hover .icon-local_pizza {
+  transform: scale(1.5);
 }
 
 .card .icon-calendar {
   color: var(--default-green);
+}
+
+.card .icon-phone {
+  color: var(--default-yellow);
+}
+
+.card p {
+  text-align: center;
+}
+
+.card .button {
+  margin-top: 25px;
+  padding: 10px;
+}
+
+.card .button1 {
+  background-color: var(--default-red);
+}
+
+.card .button2 {
+  background-color: var(--default-green);
+}
+
+.card .button3 {
+  background-color: var(--default-yellow);
 }
