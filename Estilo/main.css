@@ -38,11 +38,13 @@
   padding: 50px;
 }
 
-.card {
+.card1,
+.card2,
+.card3 {
   margin-top: 20px;
 }
 
-.card::after {
+.card1::after {
   content: '';
   width: 349px;
   height: 0px;
@@ -54,28 +56,60 @@
   transition: 0.2s;
 }
 
-.card:hover::after {
+.card1:hover::after {
   height: 300px;
 }
 
-.card h1 {
+.card2::after {
+  content: '';
+  width: 349px;
+  height: 0px;
+  background-color: #08834614;
+
+  position: absolute;
+  left: 50px;
+  top: 810px;
+  transition: 0.2s;
+}
+
+.card2:hover::after {
+  height: 300px;
+}
+
+.card3::after {
+  content: '';
+  width: 349px;
+  height: 0px;
+  background-color: #08834614;
+
+  position: absolute;
+  left: 50px;
+  top: 1200px;
+  transition: 0.2s;
+}
+
+.card3:hover::after {
+  height: 300px;
+}
+
+.cards h1 {
   margin-bottom: 30px;
   padding-bottom: 20px;
 }
 
-.card h1.tittle1 {
+.card1 h1 {
   border-bottom: 5px solid var(--default-red);
 }
 
-.card h1.tittle2 {
+.card2 h1 {
   border-bottom: 5px solid var(--default-green);
 }
 
-.card h1.tittle3 {
+.card3 h1 {
   border-bottom: 5px solid var(--default-yellow);
 }
 
-.card .icon-local_pizza,
+.card1 .icon-local_pizza,
 .icon-calendar,
 .icon-phone {
   margin-left: 140px;
@@ -83,41 +117,67 @@
   font-size: 90px;
 }
 
-.card .icon-local_pizza {
+.card1 .icon-local_pizza {
   color: var(--default-red);
   display: inline-block;
   transition: 0.2s;
 }
 
-.card:hover .icon-local_pizza {
-  transform: scale(1.5);
+.card1:hover .icon-local_pizza {
+  transform: scale(1.2);
 }
 
-.card .icon-calendar {
+.card2 .icon-calendar {
   color: var(--default-green);
+  display: inline-block;
+  transition: 0.2s;
 }
 
-.card .icon-phone {
+.card2:hover .icon-calendar {
+  transform: scale(1.2);
+}
+
+.card3 .icon-phone {
   color: var(--default-yellow);
+  display: inline-block;
+  transition: 0.2s;
 }
 
-.card p {
+.card3:hover .icon-phone {
+  transform: scale(1.2);
+}
+
+.cards p {
   text-align: center;
 }
 
-.card .button {
+.button {
   margin-top: 25px;
   padding: 10px;
+  color: white;
+  font-weight: bold;
 }
 
-.card .button1 {
+.card1 .button {
   background-color: var(--default-red);
 }
 
-.card .button2 {
+.card1:hover .button {
+  background-color: #760f13;
+}
+
+.card2 .button {
   background-color: var(--default-green);
 }
 
-.card .button3 {
+.card2:hover .button {
+  background-color: #034323;
+}
+
+.card3 .button {
   background-color: var(--default-yellow);
+}
+
+.card3:hover .button {
+  background-color: #d2a70d;
 }
